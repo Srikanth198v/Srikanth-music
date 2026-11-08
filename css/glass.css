@@ -1,2 +1,7 @@
-/* Android-inspired liquid glass surfaces */
-.glass{background:rgba(255,255,255,.09);border:1px solid var(--line);box-shadow:0 24px 70px rgba(0,0,0,.36),inset 0 1px 0 rgba(255,255,255,.18);backdrop-filter:blur(28px) saturate(160%);-webkit-backdrop-filter:blur(28px) saturate(160%)}.hero{position:relative;overflow:hidden}.hero:after{content:"";position:absolute;right:-65px;top:-85px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,#d5b5ff30,transparent 70%);pointer-events:none}.track,.now,.mini,.sheet{background:rgba(24,22,34,.55);border-color:rgba(255,255,255,.14);box-shadow:0 15px 45px rgba(0,0,0,.23),inset 0 1px 0 rgba(255,255,255,.13)}
+/* OriginOS-style frosted surfaces with quiet layered depth */
+.glass{background:rgba(27,29,32,.58);border:1px solid rgba(255,255,255,.17);box-shadow:0 22px 54px rgba(0,0,0,.34),inset 0 1px 0 rgba(255,255,255,.14),inset 0 -1px 0 rgba(255,255,255,.035);backdrop-filter:blur(30px) saturate(120%);-webkit-backdrop-filter:blur(30px) saturate(120%)}
+.hero{position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-75px;top:-95px;width:210px;height:210px;border-radius:50%;background:radial-gradient(circle,rgba(235,239,245,.10),transparent 70%);pointer-events:none}
+.track,.now,.mini,.sheet{background:rgba(27,29,32,.67);border-color:rgba(255,255,255,.18);box-shadow:0 15px 36px rgba(0,0,0,.27),inset 0 1px 0 rgba(255,255,255,.14),inset 0 -1px 0 rgba(255,255,255,.035)}
+.track{transition:transform .22s cubic-bezier(.2,.9,.2,1),border-color .2s}
+.track:hover{border-color:rgba(255,255,255,.25)}
